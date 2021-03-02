@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+
+.main {
+    width: 100%;
+    height: 736px;
+    background-color: #f6f6f6;
+    position: absolute;
+}
+
+
+.main__title {
+    color: #3c3c3c;
+    font-family: "Lato";
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8.95px;
+    margin-top: 108px;
+    text-align: center;
+}
+
+
+.main__line {
+    border-bottom: 4px solid #dddbdb;
+    width: 45px;
+    margin: 20px auto 0 auto;
+}
+
+
+.main__subtitle {
+    width: 561px;
+    color: #3c3c3c;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 24px;
+    margin: 40px auto 0 auto;
+}
+
+
+.main__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    list-style-type: none;
+}
+
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 59px;
+}
+
+
+.main__people {
+    width: 1170px;
+}
+
+
+
+.main__name {
+    color: #282528;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    margin: 21px 0 2px 0;
+}
+
+
+.main__profession {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+
+.main__logo {
+    opacity: 0;
+    width: 269px;
+    height: 268px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 5px 0 5px;
+}
+
+
+.main__logo:hover {
+    opacity: 1;
+}
+
+
+.main__logo a {
+    margin: 0 4px 0 4px;
+}
+
+
+.main__card--one,
+.main__card--two,
+.main__card--three,
+.main__card--four {
+    width: 269px;
+    height: 268px;   
+    opacity: 1;
+}
+
+
+.main__card--one:hover,
+.main__card--two:hover,
+.main__card--three:hover,
+.main__card--four:hover {
+    background-color: #00aed9; 
+    width: 269px;
+    height: 268px;   
+    opacity: 1;
+    background-image: none;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+
+
+.main__card--one{
+    background-image: url(../img/1.png);
+}
+
+
+.main__card--two {
+    background-image: url(../img/2.png);
+}
+
+
+.main__card--three {
+    background-image: url(../img/3.png);
+}
+
+
+.main__card--four {
+    background-image: url(../img/4.png);
+}
